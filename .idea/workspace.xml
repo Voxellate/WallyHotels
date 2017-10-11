@@ -9,16 +9,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="660">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../aps_system/navbar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="6" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="34" selection-end-column="6" />
+              <folding>
+                <marker date="1507681812700" expanded="true" signature="170:2061" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="206:2028" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="316:794" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="482:716" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="958:1991" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="1000:1832" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="1342:1814" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="1580:1792" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="1887:1976" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="2119:5305" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="2155:5272" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="2265:2751" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="2431:2665" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="2915:5235" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="2957:5076" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="3065:3532" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="3302:3510" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="3572:4034" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="3808:4012" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="4074:4546" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="4312:4524" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="4586:5058" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="4824:5036" ph="..." />
+                <marker date="1507681812700" expanded="true" signature="5131:5220" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Pizza-Planet/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <marker date="1507681619437" expanded="true" signature="1503:1552" ph="SELECT DISTI... pizzas" />
+                <marker date="1507681619437" expanded="true" signature="1908:3346" ph="..." />
+                <marker date="1507681619437" expanded="false" signature="2055:2093" ph="..." />
+                <marker date="1507681619437" expanded="true" signature="2237:2411" ph="..." />
+                <marker date="1507681619437" expanded="true" signature="2449:3327" ph="..." />
+                <marker date="1507681619437" expanded="true" signature="2499:2677" ph="..." />
+                <marker date="1507681619437" expanded="false" signature="2796:2814" ph="..." />
+                <marker date="1507681619437" expanded="true" signature="2888:3067" ph="..." />
+                <marker date="1507681619437" expanded="true" signature="3114:3308" ph="..." />
               </folding>
             </state>
           </provider>
@@ -49,12 +108,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="2578" />
-    <option name="height" value="1408" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -72,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -87,13 +150,19 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\002789\Documents\GitHub\WallyHotels\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,8 +176,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -119,14 +249,16 @@
       <updated>1507633053009</updated>
       <workItem from="1507633055196" duration="1942000" />
       <workItem from="1507670960396" duration="45000" />
+      <workItem from="1507679313264" duration="3586000" />
+      <workItem from="1507701343886" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1987000" />
+    <option name="totallyTimeSpent" value="6610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -134,18 +266,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +297,69 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aps_system/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <marker date="1507681812700" expanded="true" signature="170:2061" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="206:2028" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="316:794" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="482:716" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="958:1991" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1000:1832" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1342:1814" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1580:1792" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1887:1976" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2119:5305" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2155:5272" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2265:2751" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2431:2665" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2915:5235" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2957:5076" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3065:3532" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3302:3510" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3572:4034" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3808:4012" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4074:4546" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4312:4524" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4586:5058" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4824:5036" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="5131:5220" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Pizza-Planet/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <marker date="1507681619437" expanded="true" signature="1503:1552" ph="SELECT DISTI... pizzas" />
+            <marker date="1507681619437" expanded="true" signature="1908:3346" ph="..." />
+            <marker date="1507681619437" expanded="false" signature="2055:2093" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2237:2411" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2449:3327" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2499:2677" ph="..." />
+            <marker date="1507681619437" expanded="false" signature="2796:2814" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2888:3067" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="3114:3308" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -171,9 +367,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Pizza-Planet/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <marker date="1507681619437" expanded="true" signature="1503:1552" ph="SELECT DISTI... pizzas" />
+            <marker date="1507681619437" expanded="true" signature="1908:3346" ph="..." />
+            <marker date="1507681619437" expanded="false" signature="2055:2093" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2237:2411" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2449:3327" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2499:2677" ph="..." />
+            <marker date="1507681619437" expanded="false" signature="2796:2814" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="2888:3067" ph="..." />
+            <marker date="1507681619437" expanded="true" signature="3114:3308" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aps_system/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="6" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <marker date="1507681812700" expanded="true" signature="170:2061" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="206:2028" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="316:794" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="482:716" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="958:1991" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1000:1832" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1342:1814" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1580:1792" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="1887:1976" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2119:5305" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2155:5272" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2265:2751" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2431:2665" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2915:5235" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="2957:5076" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3065:3532" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3302:3510" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3572:4034" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="3808:4012" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4074:4546" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4312:4524" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4586:5058" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="4824:5036" ph="..." />
+            <marker date="1507681812700" expanded="true" signature="5131:5220" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
