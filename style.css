@@ -1,0 +1,32 @@
+html {
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ebebeb;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 2;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+/* Main content */
+.main {
+    margin-top: 70px; /* Add a top margin to avoid content overlay */
+}
+
+.navbar a:hover {
+    background-color: #dddddd;
+}
