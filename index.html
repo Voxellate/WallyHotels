@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="style.css">
 <script src="js/maps.js"></script>
 <script src="js/youtube.js"></script>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
 
 <title>Wally Hotels</title>
 
@@ -21,15 +22,15 @@
 <div class="main">
     <h1>Our Locations</h1>
     <div id="googleMap" style="width:80%;height:500px;"></div>
+    <form id="mapsearch">
+        <p id="postcode">Postcode: </p><input type="text" name="postcode">
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
 </div>
 
-<div id="player"></div>
+<div id="ytplayer"></div>
+<button type="button" onclick="vidChange();">Change</button>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNaCB2My_2lKmpHhuNeyp6Qx3LBy95f9k&callback=myMap"></script>
-<script>
-    function scrollto (x) {
-        document.getElementById(x).scrollIntoView();
-    }
-</script>
 </body>
 </html>
