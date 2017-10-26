@@ -1,6 +1,7 @@
 /**
  * Created by Lucas on 10/12/2017.
  */
+
 function scrollto (x) {
     document.getElementById(x).scrollIntoView();
 }
@@ -14,3 +15,5 @@ function validateForm () {
         document.getElementById("postcode").innerHTML = "Postcode:";
     }
 }
+
+

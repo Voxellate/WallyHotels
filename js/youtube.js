@@ -11,10 +11,10 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 //Replace the ytplayer element with an <iframe>
 var player;
 function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
-        height: '360',
-        width: '640',
-        videoId: 'M7lc1UVf-VE'
+    player = new YT.Player('player', {
+        height: '100%',
+        width: '100%',
+        videoId: 'qvBX9VgPGSg'
     });
 }
 
