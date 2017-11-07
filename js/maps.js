@@ -2,21 +2,21 @@
  * Created by 002789 on 12/10/2017.
  */
 
-const locations = [["Wally Alpha","2 Musgrave Road, Red Hill QLD 4059"],
+const locations = [["Wally Alpha","2 Musgrave Road, Red Hill QLD 4059"], //2D Array of hotel locations.
     ["Wally Beta", "81 Surf Parade, Broadbeach QLD 4218"],
     ["Wally Delta", "398 Marine Parade, Biggera Waters QLD 4216"],
     ["Wally Gamma", "118 Eagle Terrace, Sandgate QLD 4017"]];
 
-var map;
+var map;    //Initializes map as a variable
 
-var markers = [];
+var markers = [];   //Initializes markers as an empty array
 
-function mapConfig() {
+function mapConfig() {  //function that holds the map configuration and initializes the map.
     var mapProp = {center:new google.maps.LatLng(-27.464234, 153.021178), zoom:14, disableDefaultUI: true};
     map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 
-function locTable (){
+function locTable (){   //Generates a table from the locations array.
     var contents = "";
     for(var i = 0; i < locations.length; i++) {
         contents += "<tr onclick='addressClick(" + i + ")'><td>" + locations[i][0] + "</td><td>" + locations[i][1] + "</td></tr>";
@@ -25,11 +25,13 @@ function locTable (){
 }
 
 function addressSearch() {
+    /* Function that geocodes an address to coordinates, computes the distance between the given address and the array addresses,
+    * and displays the closest address on the map. */
     var places = [];
     places = locations.slice();
     places.unshift(["user",document.getElementById("address").value]);
         geocodeArray(places, function(coords) {
-            // Do something after getting done with Geocoding of multiple addresses
+            // Do something after finishing geocoding of multiple addresses
             console.log(coords);
             var distances = [];
             for(var i = 1; i < coords.length; i++) {
@@ -44,7 +46,7 @@ function addressSearch() {
         });
 }
 
-function addressClick(index) {
+function addressClick(index) { //Function that geocodes an address to coordinates and displays the location on the map.
     var geocoder = new google.maps.Geocoder();
     geocoder.geocode({'address': locations[index][1]}, function (results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
@@ -56,7 +58,7 @@ function addressClick(index) {
     });
 }
 
-function geocodeArray(addresses, callback) {
+function geocodeArray(addresses, callback) {    //Geocodes an array of addresses sequentially.
     var coords = [];
     console.log(addresses);
     console.log(locations);
@@ -78,6 +80,7 @@ function geocodeArray(addresses, callback) {
 }
 
 function newMarker(coords, index) {
+    //Given coordinates and the index of the address in the array, displays a marker at those coordinates
     var name = locations[index][0];
     var address = locations[index][1];
     var marker = new google.maps.Marker({position:coords, map:map, title:name, animation:google.maps.Animation.DROP});
@@ -89,12 +92,12 @@ function newMarker(coords, index) {
     });
 }
 
-function showMarker(marker) {
+function showMarker(marker) {   //Centers the map on a marker
     map.setCenter(marker.getPosition());
     map.setZoom(14);
 }
 
-function clearMarkers() {
+function clearMarkers() {   //Clears the markers off the map
     for (var i = 0; i < markers.length; i++) {
         markers[i].setMap(null);
     }
@@ -102,7 +105,7 @@ function clearMarkers() {
 
 }
 
-function minVal (array) {
+function minVal (array) {   //Gives the minimum value of an array
     var index = 0;
     var value = array[0];
     for (var i = 1; i < array.length; i++) {
