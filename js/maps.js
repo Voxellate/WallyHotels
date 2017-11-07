@@ -49,7 +49,7 @@ function addressSearch() {
 function addressClick(index) { //Function that geocodes an address to coordinates and displays the location on the map.
     var geocoder = new google.maps.Geocoder();
     geocoder.geocode({'address': locations[index][1]}, function (results, status) {
-        if (status == google.maps.GeocoderStatus.OK) {
+        if (status === google.maps.GeocoderStatus.OK) {
             clearMarkers();
             newMarker(results[0].geometry.location, index);
         } else {
@@ -65,9 +65,9 @@ function geocodeArray(addresses, callback) {    //Geocodes an array of addresses
     for(var i = 0; i < addresses.length; i++) {
         var geocoder = new google.maps.Geocoder();
         geocoder.geocode({'address':addresses[i][1]}, function (results, status) {
-            if (status == google.maps.GeocoderStatus.OK) {
+            if (status === google.maps.GeocoderStatus.OK) {
                 coords.push(results[0].geometry.location);
-                if(coords.length == addresses.length) {
+                if(coords.length === addresses.length) {
                     callback(coords);
                 }
             }

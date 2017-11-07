@@ -7,16 +7,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
-<style>
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
-</style>
+<style>body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}</style>
 <body class="w3-light-grey" onload="locTable()">
 
 <!-- Navigation Bar -->
 <nav class="w3-bar w3-top w3-white w3-large">
     <a href="#" class="w3-bar-item w3-button w3-blue w3-mobile"><i class="fa fa-bed w3-margin-right"></i>Wally Hotels</a>
     <a href="#locations" class="w3-bar-item w3-button w3-mobile">Locations</a>
-    <a href="#attractions" class="w3-bar-item w3-button w3-mobile">Attractions</a>
     <a href="#about" class="w3-bar-item w3-button w3-mobile">About</a>
     <a href="#contact" class="w3-bar-item w3-button w3-mobile">Contact</a>
     <a href="#contact" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile">Book Now</a>
@@ -30,7 +27,7 @@
         </div>
         <div class="w3-container w3-white w3-padding-16">
             <h6>Here at Wally Hotels, you can escape your everyday life. Join us on the beautiful Gold Coast, where the sun is always shining.</h6>
-            <button class="w3-button w3-dark-grey" type="submit"><i class="fa fa-search w3-margin-right"></i> Find a location</button>
+            <a class="w3-button w3-dark-grey" href="#locations"><i class="fa fa-search w3-margin-right"></i> Find a location</a>
         </div>
     </div>
 </header>
@@ -45,8 +42,11 @@
 
             </table>
             <br>
-            <label for="address">Search by address:</label><input id="address" class="w3-input w3-border" type="text"><button class="w3-button w3-dark-grey" onClick="addressSearch();">Search</button>
-            <p>We accept: <i class="fa fa-cc-visa w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
+            <label for="address">Search by address:</label><input id="address" class="w3-input w3-border" type="text">
+            <button class="w3-button w3-dark-grey" onClick="addressSearch();">Search</button>
+            <p>We accept: <i class="fa fa-cc-visa w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i>
+                <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i>
+            </p>
         </div>
         <div class="w3-col l8 m5">
             <div id="googleMap" style="width:100%;height:600px;"></div>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="w3-row w3-large w3-center" style="margin:32px 0">
-        <div class="w3-third"><i class="fa fa-map-marker w3-text-blue"></i> 423 Some adr, Chicago, US</div>
+        <div class="w3-third"><i class="fa fa-map-marker w3-text-blue"></i> 423 Somewhere, Queensland, AU</div>
         <div class="w3-third"><i class="fa fa-phone w3-text-blue"></i> Phone: +00 151515</div>
         <div class="w3-third"><i class="fa fa-envelope w3-text-blue"></i> Email: mail@mail.com</div>
     </div>
@@ -71,22 +71,16 @@
             </div>
         </div>
         <div class="w3-half">
-            <a class="twitter-timeline" data-lang="en" data-height="500" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        </div>
+            <a class="twitter-timeline" data-lang="en" data-height="500" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
     </div>
 
-    <div class="w3-container w3-padding-32 w3-black w3-opacity w3-card-2 w3-hover-opacity-off" style="margin:32px 0;">
-        <h2>Get the best offers first!</h2>
-        <p>Join our newsletter.</p>
-        <label>E-mail</label>
-        <input class="w3-input w3-border" type="text" placeholder="Your Email address">
-        <button type="button" class="w3-button w3-blue w3-margin-top">Subscribe</button>
-    </div>
-
-    <div class="w3-container" id="contact">
+    <div class="w3-container w3-black" id="contact">
         <h2>Contact</h2>
         <p>If you have any questions, do not hesitate to ask them.</p>
         <i class="fa fa-map-marker w3-text-blue" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone w3-text-blue" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-phone w3-text-blue" style="width:30px"></i> Phone: +07 55755858<br>
         <i class="fa fa-envelope w3-text-blue" style="width:30px"> </i> Email: mail@mail.com<br>
         <form action="/action_page.php" target="_blank">
             <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
